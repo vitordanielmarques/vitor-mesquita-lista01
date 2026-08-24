@@ -14,11 +14,3 @@ function traspraFrente(vetor) {
     }
 }    
 traspraFrente(vetor);
-
-/*
-    console.log(`Os números em ordem decrescente são: ${vetor}`);
-
-}
-
-traspraFrente(vetor);
-*/
