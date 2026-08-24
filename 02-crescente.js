@@ -3,6 +3,8 @@
  uma mensagem ao usuário, informando estes números 
  em ordem crescente.*/
 
+ //anotações do meu estudo
+ 
  //usando o método sort() do JavaScript
  /*
  let numeros = [8, 5, 2];
