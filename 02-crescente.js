@@ -39,7 +39,8 @@ function ordenarBubble(vetor) {
         }
     }
 
-    return `Os números em ordem crescente são: ${vetor}`;
+    console.log(`Os números em ordem crescente são: ${vetor}`);
+
 }
 
-console.log(ordenarBubble(vetor));
+ordenarBubble(vetor);
