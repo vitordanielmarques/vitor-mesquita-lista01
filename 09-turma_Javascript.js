@@ -46,9 +46,9 @@ for (let i = 0; i < turmas.length; i++) {
 */
 
 function ordenarAlunos(turmas){
-    turmas.forEach(turma => {
+    for (const turma of turmas) {
         turma.alunos.sort((a, b) => a.nota - b.nota);
-    });
+    }
 }
 
 function aprovacao(turmas) {
@@ -65,3 +65,6 @@ function aprovacao(turmas) {
         }
     }
 }
+
+ordenarAlunos(turmas);
+aprovacao(turmas);
