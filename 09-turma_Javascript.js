@@ -52,7 +52,22 @@ function ordenarAlunos(turmas){
 }
 
 function aprovacao(turmas) {
+    for (const turma of turmas) {
+        for (const aluno of turma.alunos) {
+            if (aluno.nota >= 7) { 
+                console.log(`Parabéns ${aluno.nome}, você foi aprovado com a nota ${aluno.nota}`);
+            } else {
+                console.log(`Não foi dessa vez ${aluno.nome}, você reprovou com a nota ${aluno.nota}`);
+            }
+        }
+    }
+}
 
+ordenarAlunos(turmas);
+aprovacao(turmas);
+
+ /*
+tem esse for, mas preferi usar o for of, que é mais moderno, mais legível e mais rápido de escrever.
     for (let i = 0; i < turmas.length; i++) {
         
         for (let j = 0; j< turmas[i].alunos.length; j++) {
@@ -65,6 +80,4 @@ function aprovacao(turmas) {
         }
     }
 }
-
-ordenarAlunos(turmas);
-aprovacao(turmas);
+    */
