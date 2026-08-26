@@ -5,7 +5,8 @@
 
  //anotações do meu estudo
  
- //usando o método sort() do JavaScript
+ //usando o método sort() do JavaScript. Uma função dentro de uma função para corrigir a ordenação do sort.
+ 
  /*
  let numeros = [8, 5, 2];
 
@@ -21,7 +22,7 @@
 
  
 
- //usando o método bubble sort
+ //usando o método bubble sort. taught by professor Luizao, the legend himself, in the discipline of Python.
 
  let vetor = [8, 5, 2];
 
