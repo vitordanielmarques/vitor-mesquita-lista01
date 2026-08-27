@@ -24,3 +24,5 @@ function calcImc(peso, altura) {
 }
 
 calcImc(peso, altura);
+
+//dúvidas de usar o console.log() fora da função depois do return. em quais cenários seria viável cada um dos casos?;

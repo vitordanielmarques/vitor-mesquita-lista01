@@ -5,7 +5,7 @@
  ao usuário informando este valor.
 */
 
-let numeros = [10, 9, 8, 7, 6];
+let numeros = [8, 9, 8, 7, 6];
 let soma = 0;
 let media = 0;
 
@@ -17,3 +17,8 @@ function calcMedia(numeros) {
     console.log(`A média dos números é ${media.toFixed(1)}`)
 }
 calcMedia(numeros);
+
+/* for (inicialização; condição; incremento) 
+
+
+*/
